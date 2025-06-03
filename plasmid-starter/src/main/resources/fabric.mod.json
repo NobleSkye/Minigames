@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "SkyeNet",
+  "version": "${version}",
+  "name": "SkyeNetwork",
+  "description": "Amazing Minigames for SkyeNetwork",
+  "authors": [
+    "NobleSkye"
+  ],
+  "license": "ARR",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.SkyeNet"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.4",
+    "plasmid": ">=0.6.2"
+  }
+}
