@@ -1,4 +1,4 @@
-package dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game;
+package dev.nobleskye.skyenet.game;
 
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.ActionResult;
@@ -8,8 +8,8 @@ import xyz.nucleoid.plasmid.api.game.*;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.world.GameMode;
-import dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game.map.SkyeNetMap;
-import dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game.map.SkyeNetMapGenerator;
+import dev.nobleskye.skyenet.game.map.SkyeNetMap;
+import dev.nobleskye.skyenet.game.map.SkyeNetMapGenerator;
 import xyz.nucleoid.plasmid.api.game.common.GameWaitingLobby;
 import xyz.nucleoid.plasmid.api.game.event.GameActivityEvents;
 import xyz.nucleoid.plasmid.api.game.event.GamePlayerEvents;

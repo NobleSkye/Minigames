@@ -1,9 +1,9 @@
-package dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game;
+package dev.nobleskye.skyenet.game;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
-import dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game.map.SkyeNetMapConfig;
+import dev.nobleskye.skyenet.game.map.SkyeNetMapConfig;
 import xyz.nucleoid.plasmid.api.game.common.config.WaitingLobbyConfig;
 
 public record SkyeNetConfig(WaitingLobbyConfig players, SkyeNetMapConfig mapConfig, int timeLimitSecs) {

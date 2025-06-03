@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "SkyeNet",
+  "id": "skyenet",
   "version": "${version}",
   "name": "SkyeNetwork",
   "description": "Amazing Minigames for SkyeNetwork",
@@ -11,7 +11,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.SkyeNet"
+      "dev.nobleskye.skyenet.SkyeNet"
     ]
   },
   "depends": {

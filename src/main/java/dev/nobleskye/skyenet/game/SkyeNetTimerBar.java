@@ -1,4 +1,4 @@
-package dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game;
+package dev.nobleskye.skyenet.game;
 
 import net.minecraft.entity.boss.BossBar;
 import net.minecraft.text.Text;

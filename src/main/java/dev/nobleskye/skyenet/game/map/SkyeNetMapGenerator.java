@@ -1,4 +1,4 @@
-package dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game.map;
+package dev.nobleskye.skyenet.game.map;
 
 import xyz.nucleoid.map_templates.MapTemplate;
 import net.minecraft.util.math.BlockPos;

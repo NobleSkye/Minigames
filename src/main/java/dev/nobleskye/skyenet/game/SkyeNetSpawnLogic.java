@@ -1,4 +1,4 @@
-package dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game;
+package dev.nobleskye.skyenet.game;
 
 import net.minecraft.util.math.Vec3d;
 import xyz.nucleoid.plasmid.api.game.GameSpace;
@@ -9,8 +9,8 @@ import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.GameMode;
-import dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.SkyeNet;
-import dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game.map.SkyeNetMap;
+import dev.nobleskye.skyenet.SkyeNet;
+import dev.nobleskye.skyenet.game.map.SkyeNetMap;
 
 import java.util.Set;
 

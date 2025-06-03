@@ -1,4 +1,4 @@
-package dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game;
+package dev.nobleskye.skyenet.game;
 
 import it.unimi.dsi.fastutil.objects.Object2ObjectMap;
 import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
@@ -20,7 +20,7 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.world.GameMode;
-import dev.nobleskye.skyenet. Default = {maven_group}.{mod_id}.game.map.SkyeNetMap;
+import dev.nobleskye.skyenet.game.map.SkyeNetMap;
 import xyz.nucleoid.stimuli.event.EventResult;
 import xyz.nucleoid.stimuli.event.player.PlayerDamageEvent;
 import xyz.nucleoid.stimuli.event.player.PlayerDeathEvent;
